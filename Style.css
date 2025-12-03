@@ -1,1 +1,146 @@
-# SuperD-fiTKS
+/* --- RESET SIMPLE --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  color: #222;
+  line-height: 1.6;
+  padding-bottom: 40px;
+}
+
+/* --- HEADER --- */
+header {
+  text-align: center;
+  padding: 25px 0;
+  background: #e3f2e1;
+  border-bottom: 2px solid #c9e6c4;
+}
+
+header h1 {
+  font-size: 2.3rem;
+  color: #2e5d2e;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #3b7b3b;
+  margin-top: 5px;
+}
+
+header nav {
+  margin-top: 15px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #1c4e1c;
+  font-weight: bold;
+  padding: 4px 8px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* --- MAIN CONTENT --- */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+main img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* --- TITRES --- */
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  color: #2e5d2e;
+}
+
+h3 {
+  margin: 15px 0 5px;
+  color: #3d6a3d;
+}
+
+/* --- DETAIL LISTS --- */
+ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* --- PAGE DETAILS - PHOTO AMPHIBIEN --- */
+.amphibien {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* --- CONCOURS PHOTO --- */
+.photos-list {
+  margin-top: 20px;
+}
+
+.photo-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.07);
+}
+
+.photo-item h3 {
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+  color: #2e5d2e;
+}
+
+/* Bouton voter */
+button {
+  background: #2e5d2e;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #244924;
+}
+
+/* Classement */
+ol {
+  margin: 15px 0 20px 20px;
+}
+
+/* --- FOOTER --- */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  color: #555;
+}
+
+footer hr {
+  margin-bottom: 15px;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
